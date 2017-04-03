@@ -27,8 +27,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>6.1.5</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
-    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <packageSourceUrl>https://github.com/mfschumann/chocolatey-packages/tree/master/spideroakone</packageSourceUrl>
     <owners>Martin F. Schumann</owners>
     <!-- ============================== -->
 
@@ -49,7 +48,9 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>spideroakone cloud backup sync storage admin trial</tags>
     <summary>Cloud backup and sync solution with strong encryption (trial available)</summary>
-    <description>Paid subscription required, free trial available.
+    <description>Cloud backup and sync solution with strong encryption.
+        
+    Paid subscription required, free trial available.
     
     __Features:__
     
