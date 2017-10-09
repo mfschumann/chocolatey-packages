@@ -14,9 +14,9 @@ $packageArgs = @{
 
   softwareName  = 'SpiderOakONE*'
 
-  checksum      = '8DEE632B4F4659726215CCA0AC412D7193E86EFCB8D2A53C0E59527172367809'
+  checksum      = 'a60300d9733c7e96e754f9ff779abbc6b37f55969b72cd4c0f224309c83f479b'
   checksumType  = 'sha256'
-  checksum64    = '4D1B445E71F97B6D18EDFD3C8502C983F8AFE826323D168D09C83FEBED8B77F6'
+  checksum64    = '71c63589dfb01c97b8b331471bb9ff208da60cc6a210a5c592b731fd8dd09ffe'
   checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
