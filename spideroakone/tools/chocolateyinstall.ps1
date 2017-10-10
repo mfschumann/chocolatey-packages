@@ -2,8 +2,8 @@
 
 $packageName= 'spideroakone'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://spideroak.com/release/spideroak/msi_x86'
-$url64      = 'https://spideroak.com/release/spideroak/msi_x64'
+$url        = 'https://spideroak.com/share/M5XWYZDFNY/retriever/f%3A/Fetch/6.4.0/SpiderOakONE-6.4.0-msi_x86.msi'
+$url64      = 'https://spideroak.com/share/M5XWYZDFNY/retriever/f%3A/Fetch/6.4.0/SpiderOakONE-6.4.0-msi_x64.msi'
 
 $packageArgs = @{
   packageName   = $packageName
