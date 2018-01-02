@@ -2,8 +2,8 @@
 
 $packageName= 'spideroakone'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://spideroak.com/share/M5XWYZDFNY/retriever/f%3A/Fetch/6.4.0/SpiderOakONE-6.4.0-msi_x86.msi'
-$url64      = 'https://spideroak.com/share/M5XWYZDFNY/retriever/f%3A/Fetch/6.4.0/SpiderOakONE-6.4.0-msi_x64.msi'
+$url        = 'https://spideroak.com/release/spideroak/msi_x86'
+$url64      = 'https://spideroak.com/release/spideroak/msi_x64'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -14,9 +14,9 @@ $packageArgs = @{
 
   softwareName  = 'SpiderOakONE*'
 
-  checksum      = 'a60300d9733c7e96e754f9ff779abbc6b37f55969b72cd4c0f224309c83f479b'
+  checksum      = '09bc489ddbd49c3cc2065876a272a3e30e2e8705768b92ee6dd0e49957364722'
   checksumType  = 'sha256'
-  checksum64    = '71c63589dfb01c97b8b331471bb9ff208da60cc6a210a5c592b731fd8dd09ffe'
+  checksum64    = '98915f856699611e6bcf43be5dd36671c902199e8df41f9e827845652ddfbbfb'
   checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""

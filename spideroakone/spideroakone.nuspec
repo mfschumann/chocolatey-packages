@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>6.4.0.20180102</version>
+    <version>7.0.0</version>
     <packageSourceUrl>https://github.com/mfschumann/chocolatey-packages/tree/master/spideroakone</packageSourceUrl>
 
     <owners>Martin F. Schumann</owners>
@@ -61,11 +61,16 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
      - No time limits or restrictions
      - Unparalleled privacy. 
 </description>
-    <releaseNotes>__BUG FIXES:__
-    - Language improvements
-    - Made CDM on Windows more robust
-    - Implemented secure unsharing
-    - Added High Sierra support (Details available at https://support.spideroak.com/hc/en-us/articles/115004867006)
+    <releaseNotes>
+    __FEATURES:__
+    - Redesign of the UI
+    
+    __BUG FIXES:__
+    - Fix support links
+    - Fix for edge case where files can become 0 bytes in syncs
+    - `--purge-historical-versions` improvements
+    - Removable media detection improvements
+    - Fix an issue that was causing the client to get stuck at "Calculations pending" state
 </releaseNotes>
     <!-- =============================== -->      
 
