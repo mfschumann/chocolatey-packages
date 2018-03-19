@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>7.0.0.20180120</version>
+    <version>7.0.1</version>
     <packageSourceUrl>https://github.com/mfschumann/chocolatey-packages/tree/master/spideroakone</packageSourceUrl>
 
     <owners>Martin F. Schumann</owners>
@@ -63,17 +63,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 </description>
     <releaseNotes>
     __PACKAGING CHANGES:__
-    - Update to release-specific download URI
+    - Updated icon
     
-    __FEATURES:__
-    - Redesign of the UI
-    
-    __BUG FIXES:__
-    - Fix support links
-    - Fix for edge case where files can become 0 bytes in syncs
-    - `--purge-historical-versions` improvements
-    - Removable media detection improvements
-    - Fix an issue that was causing the client to get stuck at "Calculations pending" state
+    __UPSTREAM CHANGES:__
+    - Updated SSL certificate pins based on CA changes in spideroak.com
 </releaseNotes>
     <!-- =============================== -->      
 
