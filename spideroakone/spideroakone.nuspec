@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>SpiderOak, Inc.</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://spideroak.com/</projectUrl>
-    <iconUrl>https://spideroak.com/media/cms/cms/SpiderOakONE_icon.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/mfschumann/chocolatey-packages/df8e06de/spideroakone/spideroakone.png</iconUrl>
     <copyright>2017 SpiderOak, Inc.</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://spideroak.com/policy/terms-of-use</licenseUrl>
