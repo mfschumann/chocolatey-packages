@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>7.0.1</version>
+    <version>7.1.0</version>
     <packageSourceUrl>https://github.com/mfschumann/chocolatey-packages/tree/master/spideroakone</packageSourceUrl>
 
     <owners>Martin F. Schumann</owners>
@@ -39,7 +39,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://spideroak.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/mfschumann/chocolatey-packages/df8e06de/spideroakone/spideroakone.png</iconUrl>
-    <copyright>2017 SpiderOak, Inc.</copyright>
+    <copyright>2018 SpiderOak, Inc.</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://spideroak.com/policy/terms-of-use</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -62,11 +62,14 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
      - Unparalleled privacy. 
 </description>
     <releaseNotes>
-    __PACKAGING CHANGES:__
-    - Updated icon
-    
     __UPSTREAM CHANGES:__
-    - Updated SSL certificate pins based on CA changes in spideroak.com
+    - Command line help improved/updated
+    - Manpage improved/updated
+    - Backup file/directory deselection behavior improved
+    - Update Hive icon branding
+    - Restart no longer required when changing size/age file restrictions
+    - Prevent unicode related sync issues
+    - Prevent preferences from freezing under certain conditions
 </releaseNotes>
     <!-- =============================== -->      
 
