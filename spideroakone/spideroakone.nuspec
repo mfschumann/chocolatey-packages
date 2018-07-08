@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>7.1.0</version>
+    <version>7.2.0</version>
     <packageSourceUrl>https://github.com/mfschumann/chocolatey-packages/tree/master/spideroakone</packageSourceUrl>
 
     <owners>Martin F. Schumann</owners>
@@ -63,13 +63,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 </description>
     <releaseNotes>
     __UPSTREAM CHANGES:__
-    - Command line help improved/updated
-    - Manpage improved/updated
-    - Backup file/directory deselection behavior improved
-    - Update Hive icon branding
-    - Restart no longer required when changing size/age file restrictions
-    - Prevent unicode related sync issues
-    - Prevent preferences from freezing under certain conditions
+    - Add notice for data storage
+    - Normalize naming conventions
+    - Calculate space usage in a more efficient way
+    - Fix sync bug where the client reports that it can’t find a journal
 </releaseNotes>
     <!-- =============================== -->      
 
