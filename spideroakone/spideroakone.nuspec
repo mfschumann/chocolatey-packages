@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>7.2.0</version>
+    <version>7.3.0</version>
     <packageSourceUrl>https://github.com/mfschumann/chocolatey-packages/tree/master/spideroakone</packageSourceUrl>
 
     <owners>Martin F. Schumann</owners>
@@ -63,10 +63,12 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 </description>
     <releaseNotes>
     __UPSTREAM CHANGES:__
-    - Add notice for data storage
-    - Normalize naming conventions
-    - Calculate space usage in a more efficient way
-    - Fix sync bug where the client reports that it can’t find a journal
+     - Disable LAN sync by default
+     - Limit length for email on signup
+     - Only show currently backed up folders when setting up Sync
+     - Remove preview generator
+     - Improve settings UX by making preferences show in a more consistent way
+     - Force TLSv1.2 method for TLS connections in Windows
 </releaseNotes>
     <!-- =============================== -->      
 
