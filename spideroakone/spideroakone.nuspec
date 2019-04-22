@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>7.3.0</version>
+    <version>7.5.0</version>
     <packageSourceUrl>https://github.com/mfschumann/chocolatey-packages/tree/master/spideroakone</packageSourceUrl>
 
     <owners>Martin F. Schumann</owners>
@@ -39,7 +39,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://spideroak.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/mfschumann/chocolatey-packages/df8e06de/spideroakone/spideroakone.png</iconUrl>
-    <copyright>2018 SpiderOak, Inc.</copyright>
+    <copyright>2019 SpiderOak, Inc.</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>https://spideroak.com/policy/terms-of-use</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -54,7 +54,6 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     Paid subscription required, free trial available.
     
     __Features:__
-    
      - Secure, reliable backup to protect your most important files from data loss and ransomware
      - Real-time sync across all of your devices
      - Access all of your historical versions and deleted files
@@ -63,12 +62,20 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 </description>
     <releaseNotes>
     __UPSTREAM CHANGES:__
-     - Disable LAN sync by default
-     - Limit length for email on signup
-     - Only show currently backed up folders when setting up Sync
-     - Remove preview generator
-     - Improve settings UX by making preferences show in a more consistent way
-     - Force TLSv1.2 method for TLS connections in Windows
+     - Update icons for MacOS Volume
+     - New Backend Certificate
+     - Magellan security fix
+     - Inform user of account status in-app
+     - Disable translations if they are not in use.
+     - Force TLS1.2 method on every platform except macOS High Sierra
+     - Build macOS with PIE enabled
+     - Notify users when updates are available
+     - Improve overlay icons on Windows
+     
+    __UPSTREAM BUG FIXES:__
+     - Stability improvements for slow networks
+     - Fix regression on Share indicators being different colors than intended
+     - Fix manpage generation
 </releaseNotes>
     <!-- =============================== -->      
 
