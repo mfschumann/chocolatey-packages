@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>James Campbell</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://zolid.com/uk-intl-kb/index.htm</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/mfschumann/chocolatey-packages/df8e06de/ukinternationalkeyboard/ukinternationalkeyboard.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/mfschumann/chocolatey-packages@66324faf67cc68bd3f87e7815c126a03917c4d35/ukinternationalkeyboard/ukinternationalkeyboard.png</iconUrl>
     <copyright>1996-2016 James Campbell</copyright>
     <!-- If there is a license Url available, it is is required for the community feed -->
     <licenseUrl>http://zolid.com/uk-intl-kb/index.htm</licenseUrl>
