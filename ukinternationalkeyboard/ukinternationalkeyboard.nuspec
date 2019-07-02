@@ -55,9 +55,14 @@ If you frequently work with foreign languages, you may well find it awkward to t
 
 Fortunately, there is a little-known Microsoft utility called the Microsoft Keyboard Layout Creator, which is ideal for inveterate fiddlers like me. I've used it to put together a UK International keyboard, based on the UK keyboard layout but using the principles of the US International keyboard (retaining, in most cases, the established positioning of the various accented characters and symbols). I have also extended the layout to include more symbols (typically, stuff that I, as a translator and editor, need to be able to type from time to time, but also anything else I thought might be helpful to other users) and to cover more languages.
 
-Although the emphasis is on Western European languages, from version 2.0 onwards the keyboard also supports all European languages written in the Latin alphabet with many new letters and accents, and it now supports combining accent marks so in theory hundreds of combinations are now available. (Version 2.0 no longer supports superscript-1 or open bullet, but dagger and double dagger have been added.)
 </description>
     <releaseNotes>
+	__Version 2.0__
+	 - now supports all European languages written in the Latin alphabet
+	 - support for combining accent marks
+	 - removed superscript-1 and open bullet
+	 - added dagger and double dagger
+	
 </releaseNotes>
     <!-- =============================== -->      
 
