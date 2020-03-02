@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>7.5.0</version>
+    <version>7.5.1</version>
     <packageSourceUrl>https://github.com/mfschumann/chocolatey-packages/tree/master/spideroakone</packageSourceUrl>
 
     <owners>Martin F. Schumann</owners>
@@ -62,21 +62,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 </description>
     <releaseNotes>
     __UPSTREAM CHANGES:__
-     - Update icons for MacOS Volume
-     - New Backend Certificate
-     - Magellan security fix
-     - Inform user of account status in-app
-     - Disable translations if they are not in use.
-     - Force TLS1.2 method on every platform except macOS High Sierra
-     - Build macOS with PIE enabled
-     - Notify users when updates are available
-     - Improve overlay icons on Windows
-     
-    __UPSTREAM BUG FIXES:__
-     - Stability improvements for slow networks
-     - Fix regression on Share indicators being different colors than intended
-     - Fix manpage generation
-</releaseNotes>
+     - Added code signature to the main app binary
+    </releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
